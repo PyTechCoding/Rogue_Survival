@@ -1,0 +1,1423 @@
+fileFormatVersion: 2
+guid: 5629e5e8faa4c074b8a0ecaf965d70b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 487755637143645624
+    second: NewBeams_0
+  - first:
+      213: -6919355734519968924
+    second: NewBeams_1
+  - first:
+      213: 5413457141051620606
+    second: NewBeams_2
+  - first:
+      213: 1128093499943794629
+    second: NewBeams_3
+  - first:
+      213: -6311736126838376212
+    second: NewBeams_4
+  - first:
+      213: -2481164022506458366
+    second: NewBeams_5
+  - first:
+      213: -6898375529387833508
+    second: NewBeams_6
+  - first:
+      213: 4529156953773247054
+    second: NewBeams_7
+  - first:
+      213: 3871282435014395465
+    second: NewBeams_8
+  - first:
+      213: 3578778189805282493
+    second: NewBeams_9
+  - first:
+      213: 3760783865989699355
+    second: NewBeams_10
+  - first:
+      213: 6204749966967472560
+    second: NewBeams_11
+  - first:
+      213: 8054266511486037950
+    second: NewBeams_12
+  - first:
+      213: 9050523054372867647
+    second: NewBeams_13
+  - first:
+      213: -2364607422696100334
+    second: NewBeams_14
+  - first:
+      213: -8287676436092152418
+    second: NewBeams_15
+  - first:
+      213: -2072602063565007331
+    second: NewBeams_16
+  - first:
+      213: -7224558271934182905
+    second: NewBeams_17
+  - first:
+      213: -7305778634785310238
+    second: NewBeams_18
+  - first:
+      213: 6761760709743780963
+    second: NewBeams_19
+  - first:
+      213: -8747178724905481730
+    second: NewBeams_20
+  - first:
+      213: 6736912175748815952
+    second: NewBeams_21
+  - first:
+      213: -2537561141770825252
+    second: NewBeams_22
+  - first:
+      213: -1470320471462610025
+    second: NewBeams_23
+  - first:
+      213: -3222851355061713361
+    second: NewBeams_24
+  - first:
+      213: -1838704610015476689
+    second: NewBeams_25
+  - first:
+      213: 6288297398589720719
+    second: NewBeams_26
+  - first:
+      213: 4245924325216255862
+    second: NewBeams_27
+  - first:
+      213: -8920686080415749953
+    second: NewBeams_28
+  - first:
+      213: -8433992905290444235
+    second: NewBeams_29
+  - first:
+      213: 5985682975147080053
+    second: NewBeams_30
+  - first:
+      213: 6654630285170721617
+    second: NewBeams_31
+  - first:
+      213: -2191680692286920896
+    second: NewBeams_32
+  - first:
+      213: 7821095985712925496
+    second: NewBeams_33
+  - first:
+      213: 1279724800699439629
+    second: NewBeams_34
+  - first:
+      213: 1435681846446576288
+    second: NewBeams_35
+  - first:
+      213: 8408986546528205016
+    second: NewBeams_36
+  - first:
+      213: 5046998755366715287
+    second: NewBeams_37
+  - first:
+      213: 7569596652087237360
+    second: NewBeams_38
+  - first:
+      213: -4819078789397709768
+    second: NewBeams_39
+  - first:
+      213: -2291050143525333511
+    second: NewBeams_40
+  - first:
+      213: -1504359934735770424
+    second: NewBeams_41
+  - first:
+      213: 7671036581147468214
+    second: NewBeams_42
+  - first:
+      213: 600313844154176505
+    second: NewBeams_43
+  - first:
+      213: 191138531280248920
+    second: NewBeams_44
+  - first:
+      213: 7309224715707309429
+    second: NewBeams_45
+  - first:
+      213: 4136314376925375039
+    second: NewBeams_46
+  - first:
+      213: 7665758731819572835
+    second: NewBeams_47
+  - first:
+      213: -1034329442889202861
+    second: NewBeams_48
+  - first:
+      213: -649406319123167285
+    second: NewBeams_49
+  - first:
+      213: -8981047211676349272
+    second: NewBeams_50
+  - first:
+      213: -218878667968117170
+    second: NewBeams_51
+  - first:
+      213: -1599924273682228937
+    second: NewBeams_52
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewBeams_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 334
+        width: 89
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd2421fa2bd4c600800000000000000
+      internalID: 487755637143645624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 373
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b0069ae9289ff90800000000000000
+      internalID: -6919355734519968924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 382
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcfe2b8696702b40800000000000000
+      internalID: 5413457141051620606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_3
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 384
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7b391bf0bc7af00800000000000000
+      internalID: 1128093499943794629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_4
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 383
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce87cc30f653868a0800000000000000
+      internalID: -6311736126838376212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_5
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 381
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203f501a772219dd0800000000000000
+      internalID: -2481164022506458366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_6
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 383
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c574793510c0440a0800000000000000
+      internalID: -6898375529387833508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 382
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a05a1c04ccade30800000000000000
+      internalID: 4529156953773247054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_8
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 351
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9460e3c1dde89b530800000000000000
+      internalID: 3871282435014395465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 351
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4624d6dcf5aa130800000000000000
+      internalID: 3578778189805282493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_10
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 350
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b171659200df03430800000000000000
+      internalID: 3760783865989699355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 350
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b186358833bb1650800000000000000
+      internalID: 6204749966967472560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_12
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 350
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf237708b086cf60800000000000000
+      internalID: 8054266511486037950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 349
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ec06724cae99d70800000000000000
+      internalID: 9050523054372867647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 290
+        width: 70
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e62f8c31a3f2fd0800000000000000
+      internalID: -2364607422696100334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_15
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 301
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e951a5df0324cfc80800000000000000
+      internalID: -8287676436092152418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 303
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1657708763ac33e0800000000000000
+      internalID: -2072602063565007331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_17
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 302
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ac04e67863dbb90800000000000000
+      internalID: -7224558271934182905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_18
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 302
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9bbf11a09ac9a90800000000000000
+      internalID: -7305778634785310238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_19
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 304
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364a8784a8996dd50800000000000000
+      internalID: 6761760709743780963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 303
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef987235b47cb9680800000000000000
+      internalID: -8747178724905481730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 248
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c138e1ee15e7d50800000000000000
+      internalID: 6736912175748815952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 185
+        width: 9
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd15aec0695c8ccd0800000000000000
+      internalID: -2537561141770825252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 270
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b7c70425f589be0800000000000000
+      internalID: -1470320471462610025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_24
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 270
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2609a994c12643d0800000000000000
+      internalID: -3222851355061713361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_25
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 269
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24872926eb9b76e0800000000000000
+      internalID: -1838704610015476689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_26
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 271
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8804fcca25844750800000000000000
+      internalID: 6288297398589720719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_27
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 271
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f74bb8dad8cea30800000000000000
+      internalID: 4245924325216255862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_28
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 270
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb82c00164b533480800000000000000
+      internalID: -8920686080415749953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_29
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 210
+        width: 8
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5329ff9432074fa80800000000000000
+      internalID: -8433992905290444235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_30
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 217
+        width: 97
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579bebfc3fa611350800000000000000
+      internalID: 5985682975147080053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_31
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 197
+        width: 85
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15348239cfef95c50800000000000000
+      internalID: 6654630285170721617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_32
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 215
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047e72bb5069591e0800000000000000
+      internalID: -2191680692286920896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_33
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 217
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b07ae6c5d1a8c60800000000000000
+      internalID: 7821095985712925496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_34
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 216
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a92fb0dee72c110800000000000000
+      internalID: 1279724800699439629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_35
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 217
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2dce368019ce310800000000000000
+      internalID: 1435681846446576288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_36
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 219
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d83ada16b8b2b470800000000000000
+      internalID: 8408986546528205016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_37
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 218
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fb87bb0aa8a0640800000000000000
+      internalID: 5046998755366715287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_38
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 141
+        width: 111
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa55a4bc0c9c0960800000000000000
+      internalID: 7569596652087237360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_39
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 184
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c7455af513f1db0800000000000000
+      internalID: -4819078789397709768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_40
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 184
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f59090780e8430e0800000000000000
+      internalID: -2291050143525333511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_41
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 183
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc9ebb1c907f1be0800000000000000
+      internalID: -1504359934735770424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_42
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 186
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1625ea02ff47a60800000000000000
+      internalID: 7671036581147468214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_43
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 186
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f31f8ab24eb45800800000000000000
+      internalID: 600313844154176505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_44
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 185
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85069d34b7f07a200800000000000000
+      internalID: 191138531280248920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_45
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 131
+        width: 85
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d5d3b27259f6560800000000000000
+      internalID: 7309224715707309429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_46
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 177
+        width: 89
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a6afbb204276930800000000000000
+      internalID: 4136314376925375039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_47
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 118
+        width: 97
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e54ff93fe326a60800000000000000
+      internalID: 7665758731819572835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_48
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 121
+        width: 83
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3538cdf0ad255a1f0800000000000000
+      internalID: -1034329442889202861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 148
+        width: 4
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc705c9b468dcf6f0800000000000000
+      internalID: -649406319123167285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_50
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 51
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acc4050529ec5380800000000000000
+      internalID: -8981047211676349272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_51
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 41
+        width: 120
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4689dad20366fcf0800000000000000
+      internalID: -218878667968117170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBeams_52
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 316
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73955af895debc9e0800000000000000
+      internalID: -1599924273682228937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

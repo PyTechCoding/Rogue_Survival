@@ -1,0 +1,571 @@
+fileFormatVersion: 2
+guid: 9cc8ec4dc5244b54892fd9d148a45f28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8426560413054123992
+    second: reticles_0
+  - first:
+      213: 6436890476807681118
+    second: reticles_1
+  - first:
+      213: -4192733801945381887
+    second: reticles_2
+  - first:
+      213: 4313115034233342074
+    second: reticles_3
+  - first:
+      213: 6103421238210032547
+    second: reticles_4
+  - first:
+      213: 2373815851438234929
+    second: reticles_5
+  - first:
+      213: 4052581250346955354
+    second: reticles_6
+  - first:
+      213: -4228556727401085851
+    second: reticles_7
+  - first:
+      213: -7825072297159599725
+    second: reticles_8
+  - first:
+      213: 5891483149600745847
+    second: reticles_9
+  - first:
+      213: -1153450544036624606
+    second: reticles_10
+  - first:
+      213: -1318023647843737140
+    second: reticles_11
+  - first:
+      213: 1713140735580573827
+    second: reticles_12
+  - first:
+      213: -429268573490123749
+    second: reticles_13
+  - first:
+      213: 8485918166292803254
+    second: reticles_14
+  - first:
+      213: -965880418285795692
+    second: reticles_15
+  - first:
+      213: -1726742940586905011
+    second: reticles_16
+  - first:
+      213: -2574100452512206705
+    second: reticles_17
+  - first:
+      213: 6725332297574167823
+    second: reticles_18
+  - first:
+      213: -7994266735716826687
+    second: reticles_19
+  - first:
+      213: -5005256805677999747
+    second: reticles_20
+  - first:
+      213: 486050236531319910
+    second: reticles_21
+  - first:
+      213: -5596645990448196608
+    second: reticles_22
+  - first:
+      213: -1037653900057508589
+    second: reticles_23
+  - first:
+      213: 6557476713905073933
+    second: reticles_24
+  - first:
+      213: -6155077639698987653
+    second: reticles_25
+  - first:
+      213: -4343712254847936386
+    second: reticles_26
+  - first:
+      213: -3244229953066298290
+    second: reticles_27
+  - first:
+      213: 9210434298682406176
+    second: reticles_28
+  - first:
+      213: 5761427982605126095
+    second: reticles_29
+  - first:
+      213: 4579602708455920468
+    second: reticles_30
+  - first:
+      213: 7563130057311142766
+    second: reticles_31
+  - first:
+      213: 3256515784102665144
+    second: reticles_32
+  - first:
+      213: -4075879684891901869
+    second: reticles_33
+  - first:
+      213: 1551321110665037778
+    second: reticles_34
+  - first:
+      213: 1954260591297677904
+    second: reticles_35
+  - first:
+      213: 6547558041618762908
+    second: reticles_36
+  - first:
+      213: 3057328223669209812
+    second: reticles_37
+  - first:
+      213: 3379532657956044447
+    second: reticles_38
+  - first:
+      213: 4336132174875184992
+    second: reticles_39
+  - first:
+      213: 5103241280010629050
+    second: reticles_40
+  - first:
+      213: 5327843513693711057
+    second: reticles_41
+  - first:
+      213: -5113878106984629279
+    second: reticles_42
+  - first:
+      213: -7320195307166599088
+    second: reticles_43
+  - first:
+      213: 1650791183752491974
+    second: reticles_44
+  - first:
+      213: 6248610116790724925
+    second: reticles_45
+  - first:
+      213: 5108923977043593939
+    second: reticles_46
+  - first:
+      213: -6851734350570294720
+    second: reticles_47
+  - first:
+      213: 4288274352415752879
+    second: reticles_48
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: reticles_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 537
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8204a8d33f7de0b80800000000000000
+      internalID: -8426560413054123992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 546
+        width: 107
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e547738d8cd645950800000000000000
+      internalID: 6436890476807681118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 549
+        width: 112
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104c54932da60d5c0800000000000000
+      internalID: -4192733801945381887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 538
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7800e295434bdb30800000000000000
+      internalID: 4313115034233342074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 394
+        width: 125
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a375126745b3b450800000000000000
+      internalID: 6103421238210032547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 232
+        width: 139
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dda2b90fc71f020800000000000000
+      internalID: 2373815851438234929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 232
+        width: 131
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52b65afc29ad3830800000000000000
+      internalID: 4052581250346955354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_7
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 231
+        width: 125
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5648bae6f062155c0800000000000000
+      internalID: -4228556727401085851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_8
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 231
+        width: 121
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3995d0a6432c76390800000000000000
+      internalID: -7825072297159599725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 69
+        width: 134
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779e62cc5b0c2c150800000000000000
+      internalID: 5891483149600745847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 46
+        width: 151
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22747b867de1effe0800000000000000
+      internalID: -1153450544036624606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_11
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 54
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1a5b8b97075bde0800000000000000
+      internalID: -1318023647843737140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reticles_12
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 57
+        width: 146
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38018822c6c46c710800000000000000
+      internalID: 1713140735580573827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

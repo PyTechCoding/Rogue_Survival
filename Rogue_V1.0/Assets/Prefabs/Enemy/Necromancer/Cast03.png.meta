@@ -1,0 +1,1303 @@
+fileFormatVersion: 2
+guid: c44665e64211b434cb39e4e252b1232f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8261097589868991980
+    second: Cast03_0
+  - first:
+      213: -1849575374883725227
+    second: Cast03_1
+  - first:
+      213: -6250714577151835394
+    second: Cast03_2
+  - first:
+      213: -2745837893335080787
+    second: Cast03_3
+  - first:
+      213: 58136034555290923
+    second: Cast03_4
+  - first:
+      213: 3033794283498881193
+    second: Cast03_5
+  - first:
+      213: -4736699618864769748
+    second: Cast03_6
+  - first:
+      213: -389955315989352849
+    second: Cast03_7
+  - first:
+      213: -6717504724918390953
+    second: Cast03_8
+  - first:
+      213: 664506425571462223
+    second: Cast03_9
+  - first:
+      213: 2699441226183855727
+    second: Cast03_10
+  - first:
+      213: 6913556975531568486
+    second: Cast03_11
+  - first:
+      213: 6134829195648942346
+    second: Cast03_12
+  - first:
+      213: 7886252314544861783
+    second: Cast03_13
+  - first:
+      213: -2751755366940563827
+    second: Cast03_14
+  - first:
+      213: -7517614139811345135
+    second: Cast03_15
+  - first:
+      213: -2227116146355128347
+    second: Cast03_16
+  - first:
+      213: 6282504759727281779
+    second: Cast03_17
+  - first:
+      213: -5861994586327589757
+    second: Cast03_18
+  - first:
+      213: 1683899476401220323
+    second: Cast03_19
+  - first:
+      213: 270265556075128841
+    second: Cast03_20
+  - first:
+      213: -3878824773377625479
+    second: Cast03_21
+  - first:
+      213: 477312591318391138
+    second: Cast03_22
+  - first:
+      213: -3804048279183629606
+    second: Cast03_23
+  - first:
+      213: -2815445558726962057
+    second: Cast03_24
+  - first:
+      213: -2573282654831713588
+    second: Cast03_25
+  - first:
+      213: -2856079047121281835
+    second: Cast03_26
+  - first:
+      213: -5417038008366685140
+    second: Cast03_27
+  - first:
+      213: -7502182428063397210
+    second: Cast03_28
+  - first:
+      213: 3338228190954636481
+    second: Cast03_29
+  - first:
+      213: 2917332366725976856
+    second: Cast03_30
+  - first:
+      213: 5060630593442908408
+    second: Cast03_31
+  - first:
+      213: 8763628635126126670
+    second: Cast03_32
+  - first:
+      213: -167741195363351869
+    second: Cast03_33
+  - first:
+      213: 4530630462971738285
+    second: Cast03_34
+  - first:
+      213: -4753882156376365196
+    second: Cast03_35
+  - first:
+      213: -8602345142652540273
+    second: Cast03_36
+  - first:
+      213: 8990926480636624997
+    second: Cast03_37
+  - first:
+      213: 6624504705850281477
+    second: Cast03_38
+  - first:
+      213: 1958613552805038852
+    second: Cast03_39
+  - first:
+      213: 8319191462569748383
+    second: Cast03_40
+  - first:
+      213: 2455106048352599607
+    second: Cast03_41
+  - first:
+      213: -765850121536163434
+    second: Cast03_42
+  - first:
+      213: -6472738640271149057
+    second: Cast03_43
+  - first:
+      213: 8911590429102801266
+    second: Cast03_44
+  - first:
+      213: 8842814331496770443
+    second: Cast03_45
+  - first:
+      213: -5633816936743282593
+    second: Cast03_46
+  - first:
+      213: 5118392308589494498
+    second: Cast03_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cast03_0
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2804
+        width: 242
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ae50dd28faa5d80800000000000000
+      internalID: -8261097589868991980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_1
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2804
+        width: 240
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550eebafefcf456e0800000000000000
+      internalID: -1849575374883725227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_2
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 2804
+        width: 226
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef24284b5300149a0800000000000000
+      internalID: -6250714577151835394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_3
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 2804
+        width: 211
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0a4fcebf2d4e9d0800000000000000
+      internalID: -2745837893335080787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_4
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 2804
+        width: 204
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2561585a6a8ec000800000000000000
+      internalID: 58136034555290923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_5
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 2804
+        width: 201
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0cf8db3d33a1a20800000000000000
+      internalID: 3033794283498881193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2404
+        width: 201
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2556d1faccd34eb0800000000000000
+      internalID: -4736699618864769748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_7
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2404
+        width: 200
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6eed28c4b9969af0800000000000000
+      internalID: -389955315989352849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_8
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2404
+        width: 200
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f2b362b01a6c2a0800000000000000
+      internalID: -6717504724918390953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_9
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 2404
+        width: 197
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cc627c21dc83900800000000000000
+      internalID: 664506425571462223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_10
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 2404
+        width: 200
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ecbb23e77567520800000000000000
+      internalID: 2699441226183855727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_11
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 2403
+        width: 204
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dabfc8073e1ff50800000000000000
+      internalID: 6913556975531568486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_12
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2003
+        width: 206
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01c95456aa432550800000000000000
+      internalID: 6134829195648942346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_13
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 2002
+        width: 208
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7527c8962b8917d60800000000000000
+      internalID: 7886252314544861783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_14
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2002
+        width: 210
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86abbcb21dcfc9d0800000000000000
+      internalID: -2751755366940563827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_15
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 2002
+        width: 206
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d471615c11ca790800000000000000
+      internalID: -7517614139811345135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_16
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2002
+        width: 201
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e737f62aa1b711e0800000000000000
+      internalID: -2227116146355128347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_17
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 2002
+        width: 190
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376de37fac0ff2750800000000000000
+      internalID: 6282504759727281779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1602
+        width: 179
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c5eae5bf206aea0800000000000000
+      internalID: -5861994586327589757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_19
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1602
+        width: 180
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea6c50f6a96e5710800000000000000
+      internalID: 1683899476401220323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_20
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1602
+        width: 183
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908a1e0671d20c300800000000000000
+      internalID: 270265556075128841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_21
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1602
+        width: 195
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97277d46b65ab2ac0800000000000000
+      internalID: -3878824773377625479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_22
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 1602
+        width: 208
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2699a5cd541cf9600800000000000000
+      internalID: 477312591318391138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_23
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 1602
+        width: 215
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2e2daae3e453bc0800000000000000
+      internalID: -3804048279183629606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_24
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1202
+        width: 220
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774d0a36e278de8d0800000000000000
+      internalID: -2815445558726962057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_25
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1202
+        width: 222
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2e41c2f0dd94cd0800000000000000
+      internalID: -2573282654831713588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_26
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1202
+        width: 225
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc56e12d3b2d58d0800000000000000
+      internalID: -2856079047121281835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_27
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1202
+        width: 228
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24a380d1a0d2d4b0800000000000000
+      internalID: -5417038008366685140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_28
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1202
+        width: 230
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa8a1774d4e2e790800000000000000
+      internalID: -7502182428063397210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_29
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 1202
+        width: 235
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4cb0d5ad4c35e20800000000000000
+      internalID: 3338228190954636481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_30
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 802
+        width: 236
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8139372b4527c7820800000000000000
+      internalID: 2917332366725976856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_31
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 802
+        width: 236
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f883ad56b8fa3640800000000000000
+      internalID: 5060630593442908408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_32
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 802
+        width: 233
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48522cdfc9ae9970800000000000000
+      internalID: 8763628635126126670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_33
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 802
+        width: 234
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c20b2485401cadf0800000000000000
+      internalID: -167741195363351869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_34
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 802
+        width: 236
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da87ef9d66800ee30800000000000000
+      internalID: 4530630462971738285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_35
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 804
+        width: 237
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4776e1dad51d60eb0800000000000000
+      internalID: -4753882156376365196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_36
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 403
+        width: 239
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a63e08ba45e9880800000000000000
+      internalID: -8602345142652540273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_37
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 403
+        width: 239
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560cff78fff26cc70800000000000000
+      internalID: 8990926480636624997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_38
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 404
+        width: 237
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e0c1d8ee7feeb50800000000000000
+      internalID: 6624504705850281477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_39
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 402
+        width: 234
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bc53b26a46e2b10800000000000000
+      internalID: 1958613552805038852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_40
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 404
+        width: 229
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97aee8ee84b37370800000000000000
+      internalID: 8319191462569748383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_41
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 404
+        width: 222
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e38f971f9421220800000000000000
+      internalID: 2455106048352599607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_42
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 4
+        width: 215
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691b5a24f572f55f0800000000000000
+      internalID: -765850121536163434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_43
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 3
+        width: 224
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff771be20863c26a0800000000000000
+      internalID: -6472738640271149057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_44
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 4
+        width: 231
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271817697445cab70800000000000000
+      internalID: 8911590429102801266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_45
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 4
+        width: 243
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b299388ccf7ba70800000000000000
+      internalID: 8842814331496770443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_46
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 4
+        width: 246
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5856d36859a0d1b0800000000000000
+      internalID: -5633816936743282593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cast03_47
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 4
+        width: 244
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0819eafae280740800000000000000
+      internalID: 5118392308589494498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
