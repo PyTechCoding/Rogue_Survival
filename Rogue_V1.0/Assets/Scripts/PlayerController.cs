@@ -4,37 +4,31 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Header Variables")]
     public static PlayerController playerInstance;
     public Animator anim;
     public Rigidbody2D theRB;    
-    /*public GameObject bulletToFire;
-    public Transform shotPoint;
-    public float timeBetweenShots;
-    private float shotCounter;*/
     public Transform gunArm;
     public SpriteRenderer bodySR;
-
-    //private Camera theCam;
+    public CharacterSelector selector;
     private Vector2 moveInput;
     
-    
-    public float moveSpeed, dashSpeed = 8f, dashLength = .5f;
-    public float dashCooldown = 1f, dashInvincibility = .5f;
-    
-    [HideInInspector]
-    public float dashCounter;
-    
+    [Header("Movement")]
+    public float moveSpeed;
+    [Tooltip("Pressing space allows player to become invinsible for dashLength")]
+    public float dashSpeed = 8f, dashLength = .5f;
     private float activeMoveSpeed,  dashCoolCounter;
-
+    public float dashCooldown = 1f, dashInvincibility = .5f;
+    [HideInInspector]
+    public float dashCounter;    
     [HideInInspector]
     public bool canMove = true;
 
-    public List<Gun> availableGuns = new List<Gun>();
-    
+    [Header("Guns")]
+    public List<Gun> availableGuns = new List<Gun>();    
     [HideInInspector]
     public int currentGun;
 
-    public CharacterSelector selector;
     private void Awake()
     {       
 
