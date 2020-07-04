@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6953352169532414177}
   - component: {fileID: 1122894756795884853}
   - component: {fileID: 6968491883650100821}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,6 +60,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9294118, g: 0.039215688, b: 0.039215688, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -84,7 +85,7 @@ GameObject:
   - component: {fileID: 1844052141364445659}
   - component: {fileID: 7559138549328239163}
   - component: {fileID: 5369160275566205696}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +187,7 @@ GameObject:
   - component: {fileID: 4258521171698615745}
   - component: {fileID: 2969439615144829985}
   - component: {fileID: 1420204824439273209}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,6 +236,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -260,7 +262,7 @@ GameObject:
   - component: {fileID: 6409293278890342087}
   - component: {fileID: 1569487813826355282}
   - component: {fileID: 3298612410272163187}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EnemyHealth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +276,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8121883001025812104}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
   m_Children:
@@ -305,7 +307,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1018618739
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &1569487813826355282

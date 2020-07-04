@@ -34,24 +34,27 @@ public class EnemyController : MonoBehaviour
     public GameObject bullet;
     public Transform shotPoint,Parent;    
     public bool shouldShoot;
+    [Tooltip("Max Rate of Fire")]
     public float fireRate;
     public float shootRange;
     public float delay = 3f;
     private float fireCounter;
 
     [Header("Header Variables")]
-    RoomCenter room;
+    public static EnemyController instance;    
     public Animator anim;
-    public static EnemyController instance;
+    [Tooltip("Array of deathSplatter sprites to include on death")]
     public GameObject[] deathSplatters;
+    public GameObject[] itemsToDrop;
     public GameObject slimeBlast;
+    public HealthBarScript healthBar;
     public SpriteRenderer theBody;
     public int maxHealth = 150;
     public int currentHealth;
-    public HealthBarScript healthBar;
-
+    [Tooltip("Determines whether the enemy is allowed to drop an item")]
     public bool shouldDropItem;
-    public GameObject[] itemsToDrop;
+    [Tooltip("Chance an enemy will drop an item ")]
+    [Range(0f,100f)]
     public float itemDropPercent;
     public float timeSincePlayerArrived;
 
@@ -61,11 +64,11 @@ public class EnemyController : MonoBehaviour
     }
     // Start is called before the first frame update
     void Start()
-    {
+    {        
+        //Set health bar UI
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
 
-        room = FindObjectOfType<RoomCenter>();
         if (shouldWander)
         {
             pauseCounter = Random.Range(pauseLength * .75f, pauseLength * 1.25f);
@@ -75,23 +78,26 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeSincePlayerArrived = Room.timeSinceRoomActive;
-        PursuePlayer();
+        //How long the room has been active 
+        timeSincePlayerArrived = Room.timeSinceRoomActive; //TODO this needs to be adjusted as the Room becomes active once the level is loaded
+        InvestigatePlayer(); //Determine enemy action based on player status and location
     }
 
     
        
-    private void PursuePlayer()
+    private void InvestigatePlayer()
     {
-        PlayerController player = PlayerController.playerInstance;
-        if (theBody.isVisible && player.gameObject.activeInHierarchy)
+        PlayerController player = PlayerController.playerInstance; //Create an instance of the player
+        if (theBody.isVisible && player.gameObject.activeInHierarchy) // If the enemyBody is visible and the player is not dead
         {
-            moveDirection = Vector3.zero;
+            moveDirection = Vector3.zero; //Don't move
 
+            //Calculates the distance from the Enemy to the Player
             float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
 
+            //If the player is within chase radius and enemy is assigned shouldChasePlayer
             if (distanceToPlayer > rangeToEndChase && distanceToPlayer < rangeToChasePlayer && shouldChasePlayer)
-            {               
+            {                    
                     moveDirection = player.transform.position - transform.position;             
             }
             else
@@ -107,10 +113,12 @@ public class EnemyController : MonoBehaviour
 
                     if(wanderCounter <= 0)
                         {
+                            //While wandering around. Pause for a random amount of time before moving
                             pauseCounter = Random.Range(pauseLength * .75f, pauseLength * 1.25f);
                         }
                     }
 
+                    //If the pause counter is bigger than zero, begin timer
                     if(pauseCounter > 0)
                     {
                         pauseCounter -= Time.deltaTime;
@@ -119,6 +127,7 @@ public class EnemyController : MonoBehaviour
                         {
                             wanderCounter = Random.Range(wanderLength * .75f, wanderLength * 1.25f);
 
+                            //Calculates the new target direction
                             wanderDirection = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0f);
                         }
                     }
@@ -126,13 +135,17 @@ public class EnemyController : MonoBehaviour
 
                 if (shouldPatrol)
                 {
+                    //Calculates the distance between current transform and next patrol point in array
                     float distanceToPatrolPoint = Vector3.Distance(transform.position, patrolPoints[currentPatrolPoint].position);
                     
                     moveDirection = patrolPoints[currentPatrolPoint].position - transform.position;
 
                     if(distanceToPatrolPoint< .2f)
                     {
+                        //If current distance to patrol point is within .2 then move to the next point
                         currentPatrolPoint++;
+
+                        //Reset patrol points once the last point is reached
                         if(currentPatrolPoint >= patrolPoints.Length)
                         {
                             currentPatrolPoint = 0;
@@ -141,22 +154,17 @@ public class EnemyController : MonoBehaviour
                 }
             }
 
+            //If enemy is designated to run away and the player is within range, move direction is away from player
             if(shouldRunAway && distanceToPlayer < runawayRange)
             {
                 moveDirection = transform.position - player.transform.position;
             }
 
+            moveDirection.Normalize(); //Maintains the Vectors direction and changes the length to 1.0 unit
 
+            theRB.velocity = moveDirection * moveSpeed; // Adjusts the vectors speed
 
-            /*else
-            {
-                moveDirection = Vector3.zero;
-            }*/
-
-            moveDirection.Normalize();
-
-            theRB.velocity = moveDirection * moveSpeed;
-
+            //If the enemy is moving activate inPursuit animation otherwise deactivate
             if (moveDirection != Vector3.zero)
             {
                 anim.SetBool("inPursuit", true);
@@ -166,31 +174,38 @@ public class EnemyController : MonoBehaviour
                 anim.SetBool("inPursuit", false);
             }
 
+            //If the enemy is to the left of the player flip the sprite 
             if (transform.position.x > player.transform.position.x)
             {
                 transform.localScale = new Vector3(-1f, 1f, 1f);                
             }
             else
             {
-                transform.localScale = Vector3.one;
+                transform.localScale = Vector3.one; //Flip back to normal
             }
 
+            //If the enemy is designated as a shooter and player's in range and the room has
+            //been active for x amount of time. Shoot 
             if (shouldShoot && distanceToPlayer < shootRange && Room.timeSinceRoomActive <= 0)
             {
                 Shoot();
-                Room.timeSinceRoomActive = delay;                                
+                Room.timeSinceRoomActive = delay; //TODO : Play around with this to adjust enemy difficulty on room entry                               
             }
 
         }
         else
         {
+            //If enemy or player is inactive/dead don't move
             theRB.velocity = Vector2.zero;
         }
     }
 
+
+    //Once the Fire Counter hits zero, fire counter becomes a random
+    // integer between 0 and the firerate. enemy will then shoot towards the player
     private void Shoot()
     {
-        fireCounter -= Time.deltaTime;
+        fireCounter -= Time.deltaTime; //Decrements the shot counter
         if (fireCounter <= 0)
         {
             fireCounter = Random.Range(0, fireRate);
@@ -201,8 +216,11 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    //When called the enemy looses health equal to the damage amount
+    //If the enemys health is at or below zero. Call the slimHit function
+    // and has an 'itemDropPercent' chance of dropping a random item
     public void DamageEnemy(int damage)
-    {        
+    {                
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
 
@@ -224,18 +242,23 @@ public class EnemyController : MonoBehaviour
         anim.ResetTrigger("tookDamage");                
     }
 
+    //On trigger collision with a player projectile, animation controller
+    // will fire the tookDamage trigger, play the impact sound and then inflice
+    // damage on the enemy
     private void OnTriggerEnter2D(Collider2D other)
     {
         
         if(other.CompareTag("PlayerProjectile"))
         {
             anim.SetTrigger("tookDamage");
-            AudioController.instance.PlaySFX(2);
-            DamageEnemy(PlayerBullet.instance.damageToGive);
+            AudioController.instance.PlaySFX(2);            
+            DamageEnemy(GameObject.FindObjectOfType<PlayerBullet>().damageToGive);
         }
         
     }
 
+    //Loops through a list of death splatters and instantiates at random rotations.
+    //Destroys itself after 3 seconds
     void SlimeHit()
     {
         int selectedSplatter = Random.Range(0, deathSplatters.Length);

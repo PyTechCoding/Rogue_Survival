@@ -29,7 +29,7 @@ public class Breakables : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {    
 
-        if(other.tag == "PlayerProjectile")
+        if(other.CompareTag("PlayerProjectile"))
         {
             Smash();
         }

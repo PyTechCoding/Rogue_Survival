@@ -261,7 +261,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -281587727
+  m_SortingLayerID: 1018618739
   m_SortingLayer: 9
   m_SortingOrder: 1
   m_Sprite: {fileID: 5875395181630150645, guid: 02027016afbc5d544ab92ba819bc8094,
@@ -283,26 +283,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5674146171068253172}
     m_Modifications:
-    - target: {fileID: 348071578654269922, guid: c4430e057ec6b6a4aa85ca6485cb8dc7,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1088965303585576877, guid: c4430e057ec6b6a4aa85ca6485cb8dc7,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3751161312983845103, guid: c4430e057ec6b6a4aa85ca6485cb8dc7,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6409293278890342087, guid: c4430e057ec6b6a4aa85ca6485cb8dc7,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: -281587727
-      objectReference: {fileID: 0}
     - target: {fileID: 6953352169532414177, guid: c4430e057ec6b6a4aa85ca6485cb8dc7,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -317,11 +297,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EnemyHealth
-      objectReference: {fileID: 0}
-    - target: {fileID: 8121883001025812104, guid: c4430e057ec6b6a4aa85ca6485cb8dc7,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8512876724513264297, guid: c4430e057ec6b6a4aa85ca6485cb8dc7,
         type: 3}
