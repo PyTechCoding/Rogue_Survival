@@ -1921,7 +1921,7 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 488936779
+  m_SortingLayerID: 1049073295
   m_SortingLayer: 2
   m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -2077,7 +2077,17 @@ PrefabInstance:
     - target: {fileID: 1807705738589900361, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163593217015065369, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1018618739
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163593217015065369, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2163593217015065375, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
@@ -2179,6 +2189,11 @@ PrefabInstance:
       propertyPath: patrolPoints.Array.data[4]
       value: 
       objectReference: {fileID: 6107411426019347977}
+    - target: {fileID: 3554071294481133062, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1018618739
+      objectReference: {fileID: 0}
     - target: {fileID: 4853782241494136509, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
@@ -2187,17 +2202,17 @@ PrefabInstance:
     - target: {fileID: 6750392345028218926, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7402848413094170476, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7887036624710908195, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aacbf4671f5757c4880902da6f92fd44, type: 3}
@@ -3897,7 +3912,17 @@ PrefabInstance:
     - target: {fileID: 1807705738589900361, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163593217015065369, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1018618739
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163593217015065369, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2163593217015065375, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
@@ -4029,6 +4054,11 @@ PrefabInstance:
       propertyPath: patrolPoints.Array.data[4]
       value: 
       objectReference: {fileID: 6107411426019347977}
+    - target: {fileID: 3554071294481133062, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1018618739
+      objectReference: {fileID: 0}
     - target: {fileID: 4853782241494136509, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
@@ -4037,17 +4067,17 @@ PrefabInstance:
     - target: {fileID: 6750392345028218926, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7402848413094170476, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7887036624710908195, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aacbf4671f5757c4880902da6f92fd44, type: 3}
@@ -4227,7 +4257,17 @@ PrefabInstance:
     - target: {fileID: 1807705738589900361, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163593217015065369, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1018618739
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163593217015065369, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2163593217015065375, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
@@ -4329,6 +4369,11 @@ PrefabInstance:
       propertyPath: patrolPoints.Array.data[4]
       value: 
       objectReference: {fileID: 6107411426019347977}
+    - target: {fileID: 3554071294481133062, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1018618739
+      objectReference: {fileID: 0}
     - target: {fileID: 4853782241494136509, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
@@ -4337,17 +4382,17 @@ PrefabInstance:
     - target: {fileID: 6750392345028218926, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7402848413094170476, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7887036624710908195, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aacbf4671f5757c4880902da6f92fd44, type: 3}
@@ -4687,7 +4732,17 @@ PrefabInstance:
     - target: {fileID: 1807705738589900361, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163593217015065369, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1018618739
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163593217015065369, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2163593217015065375, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
@@ -4819,6 +4874,11 @@ PrefabInstance:
       propertyPath: patrolPoints.Array.data[4]
       value: 
       objectReference: {fileID: 6107411426019347977}
+    - target: {fileID: 3554071294481133062, guid: aacbf4671f5757c4880902da6f92fd44,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1018618739
+      objectReference: {fileID: 0}
     - target: {fileID: 4853782241494136509, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
@@ -4827,17 +4887,17 @@ PrefabInstance:
     - target: {fileID: 6750392345028218926, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7402848413094170476, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7887036624710908195, guid: aacbf4671f5757c4880902da6f92fd44,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aacbf4671f5757c4880902da6f92fd44, type: 3}
@@ -5974,6 +6034,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2122222517067599345}
     m_Modifications:
+    - target: {fileID: 1062595506406118202, guid: 82ec92b0d6a68ee4981175ed2fff0239,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1018618739
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062595506406118202, guid: 82ec92b0d6a68ee4981175ed2fff0239,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1062595506406118204, guid: 82ec92b0d6a68ee4981175ed2fff0239,
         type: 3}
       propertyPath: m_Layer
@@ -6072,12 +6142,17 @@ PrefabInstance:
     - target: {fileID: 1493671331611000499, guid: 82ec92b0d6a68ee4981175ed2fff0239,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395035911788191484, guid: 82ec92b0d6a68ee4981175ed2fff0239,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1018618739
       objectReference: {fileID: 0}
     - target: {fileID: 5765420000775102676, guid: 82ec92b0d6a68ee4981175ed2fff0239,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6045415446507196062, guid: 82ec92b0d6a68ee4981175ed2fff0239,
         type: 3}
@@ -6087,12 +6162,12 @@ PrefabInstance:
     - target: {fileID: 6978528725707917785, guid: 82ec92b0d6a68ee4981175ed2fff0239,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7714920749232258966, guid: 82ec92b0d6a68ee4981175ed2fff0239,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82ec92b0d6a68ee4981175ed2fff0239, type: 3}

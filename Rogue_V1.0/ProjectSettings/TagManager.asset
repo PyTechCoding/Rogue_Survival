@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Boss
+  - Enemy Guts
+  - EnemyMinion
+  - Enemy
+  - PlayerProjectile
   layers:
   - Default
   - TransparentFX
@@ -13,16 +18,16 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - PlayerBullets
+  - Enemies
+  - EnemyBullets
+  - Breakable
+  - IgnoreBullets
+  - Pickups
+  - RoomLayout
+  - Ground
+  - Obstacles
   - 
   - 
   - 
@@ -40,4 +45,37 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Room Layout
+    uniqueID: 3942275353
+    locked: 0
+  - name: Ground
+    uniqueID: 1049073295
+    locked: 0
+  - name: IgnoreBullets
+    uniqueID: 1886110911
+    locked: 0
+  - name: Obstacle
+    uniqueID: 3754608815
+    locked: 0
+  - name: Breakables
+    uniqueID: 2897361183
+    locked: 0
+  - name: Pickups
+    uniqueID: 2435550095
+    locked: 0
+  - name: EnemyBullets
+    uniqueID: 1998931821
+    locked: 0
+  - name: PlayerBullets
+    uniqueID: 3285340809
+    locked: 0
+  - name: Enemy
+    uniqueID: 1018618739
+    locked: 0
+  - name: Player
+    uniqueID: 3708651849
+    locked: 0
+  - name: Weapon
+    uniqueID: 2954416973
     locked: 0

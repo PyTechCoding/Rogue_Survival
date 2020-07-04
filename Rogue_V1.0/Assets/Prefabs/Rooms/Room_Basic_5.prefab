@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 844287345765314047}
   - component: {fileID: 3624716587731733456}
-  m_Layer: 13
+  m_Layer: 15
   m_Name: RoomActivator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   - component: {fileID: 8612586685205640678}
   - component: {fileID: 5390760742254651543}
   - component: {fileID: 3990016720388435880}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: Room_Basic_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,11 +106,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closeWhenEntered: 1
-  openWhenEnemiesCleared: 1
-  doors: {fileID: 3071875633641658233}
-  enemyParent: {fileID: 7006999460473957442}
-  enemies: []
   roomActive: 0
+  doors: {fileID: 3071875633641658233}
+  mapHider: {fileID: 0}
 --- !u!50 &3990016720388435880
 Rigidbody2D:
   serializedVersion: 4
@@ -141,7 +139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6761530362744531271}
-  m_Layer: 13
+  m_Layer: 17
   m_Name: Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +175,7 @@ GameObject:
   - component: {fileID: 4971449932024804002}
   - component: {fileID: 4971449932024804003}
   - component: {fileID: 4971449932024804000}
-  m_Layer: 13
+  m_Layer: 16
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2044,9 +2042,9 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1802791881
-  m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingLayerID: 1049073295
+  m_SortingLayer: 2
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -2162,7 +2160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4971449933227721082}
   - component: {fileID: 4971449933227721083}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2205,7 +2203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3972996671390897123}
-  m_Layer: 13
+  m_Layer: 10
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2237,7 +2235,7 @@ GameObject:
   - component: {fileID: 7076804178332130902}
   - component: {fileID: 7076804178332130901}
   - component: {fileID: 7076804178332130900}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Door_H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2295,7 +2293,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1291098999
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 5041813583268518508, guid: 815f98a145a4ae14d897a7f431477ea9,
     type: 3}

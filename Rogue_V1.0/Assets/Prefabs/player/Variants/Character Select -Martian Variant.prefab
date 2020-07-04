@@ -98,6 +98,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8884563481816600484, guid: b328175493770ae4f91421aec2e899a0,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -586315447
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884563481816600484, guid: b328175493770ae4f91421aec2e899a0,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b328175493770ae4f91421aec2e899a0, type: 3}
 --- !u!1 &2443941215501408076 stripped

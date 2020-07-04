@@ -43,6 +43,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5737452837858572557, guid: 047a09eddb7903a4f91e445c3d160d91,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -586315447
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737452837858572557, guid: 047a09eddb7903a4f91e445c3d160d91,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6536592690244579407, guid: 047a09eddb7903a4f91e445c3d160d91,
         type: 3}
       propertyPath: m_LocalPosition.x
