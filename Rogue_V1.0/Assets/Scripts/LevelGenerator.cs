@@ -6,23 +6,56 @@ using UnityEngine.SceneManagement;
 public class LevelGenerator : MonoBehaviour
 {
     public enum Direction { up, right, down, left};
-    public Direction selectedDirection;
-    public GameObject layoutRoom;
-    public Transform generatorPoint;
-    public RoomCenter centerStart, centerEnd, centerShop, centerGun;
-    public RoomCenter[] potentialCenters;
-    public RoomPrefabs rooms;
-    public LayerMask whatIsRoom;
-    public Color startColor, endColor, shopColor, gunColor;
-
-    private List<GameObject> layoutRoomObjects = new List<GameObject>();
-    private List<GameObject> generatedOutlines = new List<GameObject>();
-    private GameObject endRoom, shopRoom, gunRoom;
-    
-    public float xOffset = 18f, yOffset = 10f;
-    public int distanceToEnd;
-    public int minDistanceToShop, maxDistanceToShop, minDistanceToGun, maxDistanceToGun;
-    private bool includeShop, includeGunRoom;
+    [Tooltip("Determines the location of the next generator point")]
+    public      Direction           selectedDirection;
+    [Tooltip("Contains the instantiated layout rooms")]
+    private     List<GameObject>    layoutRoomObjects = new List<GameObject>();
+    [Tooltip("Contains the instantiated room outlines")]
+    private     List<GameObject>    generatedOutlines = new List<GameObject>();
+    [Tooltip("Include at least 10 different room templates")]
+    public      RoomCenter[]        potentialCenters;
+    [Tooltip("Used to Instantiate new rooms")]
+    public      Transform           generatorPoint;
+    [Tooltip("This is displayed on both Maps")]
+    public      GameObject          layoutRoom;
+    [Tooltip("References the ending room")]
+    private     GameObject          endRoom;
+    [Tooltip("References the shop room")]
+    private     GameObject          shopRoom;
+    [Tooltip("References the weapon room")]
+    private     GameObject          gunRoom;
+    [Tooltip("This is the starting room for every spawn")]
+    public      RoomCenter          centerStart;
+    [Tooltip("This is the ending room at every level")]
+    public      RoomCenter          centerEnd;
+    [Tooltip("This a shop room")]
+    public      RoomCenter          centerShop;
+    [Tooltip("This is a weapon room")]
+    public      RoomCenter          centerGun;
+    [Tooltip("Room outlines for each possible direction")]
+    public      RoomPrefabs         rooms;
+    [Tooltip("Should display the layer of the room layout")]
+    public      LayerMask           whatIsRoom;
+    [Tooltip("Determines if current generation will include a shop")]
+    private     bool                includeShop;
+    [Tooltip("Determines if current generation will include a weapon room")]
+    private     bool                includeGunRoom;
+    [Tooltip("Color that will be displayed on the map")]
+    public      Color               startColor, endColor, shopColor, gunColor;
+    [Tooltip("If the selected direction is left or right the generator point will move +|- the xOffset direction")]
+    public      float               xOffset = 18f; 
+    [Tooltip("If the selected direction is up or down the generator point will move +|- the xOffset direction")]
+    public      float               yOffset = 10f;
+    [Tooltip("Rooms to generate before reaching the end")]
+    public      int                 distanceToEnd;
+    [Tooltip("Minimum amount of rooms needed before reaching a shop")]
+    public      int                 minDistanceToShop;
+    [Tooltip("Maximum amount of rooms needed before reaching a shop")]
+    public      int                 maxDistanceToShop;
+    [Tooltip("Minimum amount of rooms needed before reaching a weapon room")]
+    public      int                 minDistanceToGun;
+    [Tooltip("Maximum amount of rooms needed before reaching a shop")]
+    public      int                 maxDistanceToGun;
 
           
     // Start is called before the first frame update
@@ -87,9 +120,10 @@ public class LevelGenerator : MonoBehaviour
             }
             else
             {
-                gunRoom = layoutRoomObjects[gunRoomSelector];
-                gunRoom.GetComponent<SpriteRenderer>().color = gunColor;
-                layoutRoomObjects.RemoveAt(gunRoomSelector);
+                if( gunRoom && gunRoomSelector < layoutRoomObjects.Count)//TODO: Debugging. Remove.
+                    gunRoom = layoutRoomObjects[gunRoomSelector];
+                    gunRoom.GetComponent<SpriteRenderer>().color = gunColor;
+                    layoutRoomObjects.RemoveAt(gunRoomSelector);
             }         
         }
 
@@ -120,14 +154,16 @@ public class LevelGenerator : MonoBehaviour
 
             if (outline.transform.position == Vector3.zero)
             {
-                Instantiate(centerStart, outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
+                if(centerStart != null) //TODO Remove this later: For Debugging
+                    Instantiate(centerStart, outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
 
                 generateCenter = false;
             }
 
             if (outline.transform.position == endRoom.transform.position)
             {
-                Instantiate(centerEnd, outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
+                if(centerEnd != null) //TODO: Debugging purposes only. Remove later
+                    Instantiate(centerEnd, outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
                 generateCenter = false;
 
             }
@@ -136,7 +172,8 @@ public class LevelGenerator : MonoBehaviour
             {
                 if (outline.transform.position == shopRoom.transform.position)
                 {
-                    Instantiate(centerShop, outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
+                    if(centerShop != null)//TODO: Remove later. Debugging
+                        Instantiate(centerShop, outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
 
                     generateCenter = false;
                 }
@@ -146,7 +183,8 @@ public class LevelGenerator : MonoBehaviour
             {
                 if (outline.transform.position == gunRoom.transform.position)
                 {
-                    Instantiate(centerGun, outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
+                    if(centerGun != null) //TODO: Remove later. Debugging
+                        Instantiate(centerGun, outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
 
                     generateCenter = false;
                 }
@@ -156,7 +194,8 @@ public class LevelGenerator : MonoBehaviour
             {
                 int centerSelect = Random.Range(0, potentialCenters.Length);
 
-                Instantiate(potentialCenters[centerSelect], outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
+                if(potentialCenters.Length > 0)//TODO: Debug Purposes only. Remove
+                    Instantiate(potentialCenters[centerSelect], outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
 
             }
         }
@@ -191,8 +230,8 @@ public class LevelGenerator : MonoBehaviour
     {
 #if UNITY_EDITOR
             if(Input.GetKey(KeyCode.R))
-            {
-                Destroy(PlayerController.playerInstance.gameObject);
+            {                
+                //Destroy(PlayerController.playerInstance.gameObject);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);           
             }
         if (Input.GetKey(KeyCode.T))
