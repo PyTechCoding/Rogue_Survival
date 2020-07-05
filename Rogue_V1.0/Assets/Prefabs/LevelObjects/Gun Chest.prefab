@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4735802501058656608}
   - component: {fileID: 4735802501058656615}
   - component: {fileID: 4735802501058656614}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Gun Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1340550323
+  m_SortingLayer: 11
   m_SortingOrder: 0
   m_Sprite: {fileID: -4538526825993207092, guid: 815f98a145a4ae14d897a7f431477ea9,
     type: 3}
@@ -226,6 +226,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.990566, g: 0.9672036, b: 0.9672036, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -267,7 +268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4735802502578929641}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

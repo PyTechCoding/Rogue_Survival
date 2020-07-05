@@ -219,6 +219,8 @@ MonoBehaviour:
   theRB: {fileID: 6900529271553034629}
   gunArm: {fileID: 6900529271806006731}
   bodySR: {fileID: 6900529271660708175}
+  selector: {fileID: 8120804131457430984, guid: 1aae3a73f9849e045840bde2c3112ea4,
+    type: 3}
   moveSpeed: 5
   dashSpeed: 8
   dashLength: 0.5
@@ -229,7 +231,6 @@ MonoBehaviour:
   availableGuns:
   - {fileID: 4219673499304586969}
   currentGun: 0
-  selector: {fileID: 0}
 --- !u!58 &6900529271553034628
 CircleCollider2D:
   m_ObjectHideFlags: 0

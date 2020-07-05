@@ -24,7 +24,7 @@ public class CharacterSelectManager : MonoBehaviour
         //Sets the current player as the active player
         if(currentPlayer != null)
         {
-            activePlayer = currentPlayer;
+            activePlayer = currentPlayer;            
         }
     }
 

@@ -332,6 +332,8 @@ MonoBehaviour:
   theRB: {fileID: 7236298457138062292}
   gunArm: {fileID: 7236298456348753818}
   bodySR: {fileID: 7236298457180597022}
+  selector: {fileID: 2429168798229442099, guid: bb643d5942a5b9344b6c7cd59b36a5e1,
+    type: 3}
   moveSpeed: 5
   dashSpeed: 8
   dashLength: 0.5
@@ -342,7 +344,6 @@ MonoBehaviour:
   availableGuns:
   - {fileID: 1774402867992876550}
   currentGun: 0
-  selector: {fileID: 0}
 --- !u!58 &7236298457138062293
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -467,7 +468,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1977013963
-  m_SortingLayer: 10
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3112702236248781428, guid: a47294d8f066c634d90ee371916313ff,
     type: 3}

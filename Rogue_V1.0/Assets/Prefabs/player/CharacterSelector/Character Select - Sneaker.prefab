@@ -317,9 +317,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6caac3fc91f97b46821346290bbeed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: {fileID: 2891686197188722076}
   playerToSpawn: {fileID: 6900529271553034631, guid: a7dc5cbd7fb1ca740b7090e402f29579,
     type: 3}
+  message: {fileID: 2891686197188722076}
   shouldUnlock: 0
 --- !u!1 &6949905961586627667
 GameObject:

@@ -68,7 +68,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1771359873
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: -1620803097451951628, guid: f9fa167fb3d117b4ca8e67a307b6742d,
     type: 3}
@@ -150,7 +150,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1977013963
-  m_SortingLayer: 10
+  m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: -209143576518600603, guid: a47294d8f066c634d90ee371916313ff,
     type: 3}
@@ -270,7 +270,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1977013963
-  m_SortingLayer: 10
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -4791017427084006217, guid: a47294d8f066c634d90ee371916313ff,
     type: 3}
@@ -339,6 +339,8 @@ MonoBehaviour:
   theRB: {fileID: 8418469587649738364}
   gunArm: {fileID: 8418469587401484850}
   bodySR: {fileID: 8418469587625295542}
+  selector: {fileID: 3745522163795039580, guid: 5012a3f1f1e486a438d3041fe90c77c3,
+    type: 3}
   moveSpeed: 5
   dashSpeed: 8
   dashLength: 0.5
@@ -356,7 +358,6 @@ MonoBehaviour:
   - {fileID: 2659490961116326572}
   - {fileID: 8957336830911304409}
   currentGun: 0
-  selector: {fileID: 0}
 --- !u!58 &8418469587649738365
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -481,7 +482,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1977013963
-  m_SortingLayer: 10
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 4769413903677429357, guid: a47294d8f066c634d90ee371916313ff,
     type: 3}
@@ -515,7 +516,7 @@ PrefabInstance:
     - target: {fileID: 4444344221796643534, guid: 16f7b1a32761ca6448543900fcac4274,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4559337991490258652, guid: 16f7b1a32761ca6448543900fcac4274,
         type: 3}
@@ -627,7 +628,7 @@ PrefabInstance:
     - target: {fileID: 4713923452896753745, guid: d356c8e3b19cda046a684599351db76e,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4863964964321020995, guid: d356c8e3b19cda046a684599351db76e,
         type: 3}
@@ -809,7 +810,7 @@ PrefabInstance:
     - target: {fileID: 5339525351872757868, guid: 9f53db7ca7a425e4e85689c6f0ab76eb,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5339525351872757868, guid: 9f53db7ca7a425e4e85689c6f0ab76eb,
         type: 3}
@@ -926,7 +927,7 @@ PrefabInstance:
     - target: {fileID: 9180904463419202733, guid: 694ae515d0c1a984882fc9f93cc099c4,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 694ae515d0c1a984882fc9f93cc099c4, type: 3}
@@ -973,7 +974,7 @@ PrefabInstance:
     - target: {fileID: 6641414261449570661, guid: 37c78ec2eec025d42a11c737632bd734,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6827585882869845367, guid: 37c78ec2eec025d42a11c737632bd734,
         type: 3}
@@ -1130,7 +1131,7 @@ PrefabInstance:
     - target: {fileID: 5221876233965532911, guid: e5dac4ddb6c6b9f49bd08bc04e6c408d,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7970911844639717122, guid: e5dac4ddb6c6b9f49bd08bc04e6c408d,
         type: 3}

@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D theRB;    
     public Transform gunArm;
     public SpriteRenderer bodySR;
-    public CharacterSelector selector;
+    //public CharacterSelector selector;
     private Vector2 moveInput;
     
     [Header("Movement")]
@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CharacterSelectManager.instance.activeCharSelect = selector;
+        //CharacterSelectManager.instance.activeCharSelect = selector;
         if (canMove && !LevelManager.instance.isPaused)
         {
 
