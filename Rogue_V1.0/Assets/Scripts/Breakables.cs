@@ -6,29 +6,15 @@ public class Breakables : MonoBehaviour
 {
 
     public GameObject[] brokenPieces;
-    public int maxPieces = 5;
-
-    public bool shouldDropItem;
     public GameObject[] itemsToDrop;
+    public int maxPieces = 5;
+    public bool shouldDropItem;
     public float itemDropPercent;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
 
     private void OnTriggerEnter2D(Collider2D other)
     {    
-
+        //If hit by a player's bullet execute smash
         if(other.CompareTag("PlayerProjectile"))
         {
             Smash();
@@ -37,22 +23,25 @@ public class Breakables : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Player")
+        //If the player dashes into the breakable, execute smash
+        if (other.gameObject.CompareTag("Player"))
         {
             if (PlayerController.playerInstance.dashCounter > 0)
             {
                 Smash();
-
             }
         } 
     }
 
+    //Destroys the initial box GameObject, instantiating broken pieces 
+    //in different locations and rotations with the chance to drop
+    //and item
     private void Smash()
     {
         Destroy(gameObject);
         AudioController.instance.PlaySFX(0);
 
-        //show broke pieces
+        //show the  broken pieces
         int piecesToDrop = Random.Range(1, maxPieces);
 
         for (int i = 0; i < piecesToDrop; i++)
@@ -61,7 +50,7 @@ public class Breakables : MonoBehaviour
             Instantiate(brokenPieces[randomPiece], transform.position, transform.rotation);
         }
 
-        //drop items
+        //Drop item
         if (shouldDropItem)
         {
             float dropChance = Random.Range(0f, 100f);

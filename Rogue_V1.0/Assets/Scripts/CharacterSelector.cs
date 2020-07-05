@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class CharacterSelector : MonoBehaviour
 {
-    private bool canSelect;
     
-    public GameObject message;
-
-    public PlayerController playerToSpawn;
-
-    public bool shouldUnlock;
+    public      PlayerController playerToSpawn;
+    public      GameObject       message;
+    public      bool             shouldUnlock;
+    private     bool             canSelect;
 
     // Start is called before the first frame update
     void Start()
     {
         if (shouldUnlock)
         {
-
+            //If the player character was previously unlocked
             if (PlayerPrefs.HasKey(playerToSpawn.name))
             {
+                //Locate that player and set as active
                 if(PlayerPrefs.GetInt(playerToSpawn.name) == 1)
                 {
                     gameObject.SetActive(true);
@@ -32,7 +31,6 @@ public class CharacterSelector : MonoBehaviour
             else
             {
                 gameObject.SetActive(false);
-
             }
         }
     }
@@ -40,30 +38,45 @@ public class CharacterSelector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //If the character has been unlocked
         if (canSelect)
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Vector3 playerPos = PlayerController.playerInstance.transform.position;
+            SwapPlayer(); //Change player character
+        }
+    }
 
-                Destroy(PlayerController.playerInstance.gameObject);
+    private void SwapPlayer()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            //Store the active players position
+            Vector3 playerPos = PlayerController.playerInstance.transform.position;
 
-                PlayerController newPlayer = Instantiate(playerToSpawn, playerPos, playerToSpawn.transform.rotation);
-                PlayerController.playerInstance = newPlayer;
+            //Destroy the active player game object
+            Destroy(PlayerController.playerInstance.gameObject);
 
-                gameObject.SetActive(false);
+            //Instantiate the locked player(playerToSpawn) as the new active player
+            PlayerController newPlayer = Instantiate(playerToSpawn, playerPos, playerToSpawn.transform.rotation);
 
-                CameraController.instance.target = newPlayer.transform;
+            //Assign the new player as the new player controller instance
+            PlayerController.playerInstance = newPlayer;
 
-                CharacterSelectManager.instance.activePlayer = newPlayer;
-                CharacterSelectManager.instance.activeCharSelect.gameObject.SetActive(true);
-                CharacterSelectManager.instance.activeCharSelect = this;
-            }
+            //Disable the character selector gameObject
+            gameObject.SetActive(false);
+
+            //Set player as new camera target
+            CameraController.instance.target = newPlayer.transform;
+
+            //Set player game object as the activePlayer gameObject
+            CharacterSelectManager.instance.activePlayer = newPlayer;
+            CharacterSelectManager.instance.activeCharSelect.gameObject.SetActive(true);
+            CharacterSelectManager.instance.activeCharSelect = this;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //Once the player enters the trigger.Message becomes active and player can select
         if(other.CompareTag("Player"))
         {
             canSelect = true;
@@ -73,6 +86,7 @@ public class CharacterSelector : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        //Once player leaves the trigger. Message is deactivated and player cannot select
         if (other.CompareTag("Player"))
         {
             canSelect = false;

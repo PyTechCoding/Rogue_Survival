@@ -6,22 +6,19 @@ public class BossController : MonoBehaviour
 {
 
     public static BossController instance;
-
-    public BossAction[] actions;
-
-    private int currentAction;
-    private float actionCounter;
-
-    private float shotCounter;
-    public Rigidbody2D theRB;
-    private Vector2 moveDirection;
-
-    public int currentHealth;
-    public GameObject deathEffect, levelExit, hitEffect;
-    public Animator anim;
-
-    public BossSequence[] sequences;
-    public int currentSequence;
+    public BossSequence[]        sequences;
+    public BossAction[]          actions;
+    public GameObject            deathEffect;
+    public GameObject            levelExit; 
+    public GameObject            hitEffect;
+    public Rigidbody2D           theRB;
+    public Animator              anim;
+    private Vector2              moveDirection;
+    public int                   currentHealth;
+    public int                   currentSequence;
+    private int                  currentAction;
+    private float                shotCounter;
+    private float                actionCounter;
 
     private void Awake()
     {
@@ -30,13 +27,14 @@ public class BossController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        actions = sequences[currentSequence].actions;
-
-        actionCounter = actions[currentAction].actionLength;
-
+        actions         = sequences[currentSequence].actions;
+        actionCounter   = actions[currentAction].actionLength;
+        
+        //Set boss health bar values
         UIController.instance.bossHealthBar.maxValue = currentHealth;
-        UIController.instance.bossHealthBar.value = currentHealth;
-
+        UIController.instance.bossHealthBar.value    = currentHealth;
+        
+        //If current scene is the Bosses Room and the Boss music isn't playing then player the boss music
         if (CameraController.instance.isBossRoom && !AudioController.instance.bossMusic.isPlaying)
         {
             AudioController.instance.levelMusic.Stop();
@@ -151,19 +149,16 @@ public class BossController : MonoBehaviour
 public class BossAction
 {
     [Header("Action")]
-    public float actionLength;
-    public float moveSpeed;
-
-    public bool shouldMove;
-    public bool shouldChasePlayer;
-    public bool moveToPoints;
-
-    public Transform pointToMoveTo;
-
-    public bool shouldShoot;
-    public GameObject itemToShoot;
-    public float timeBetweenShots;
-    public Transform[] shotPoints;
+    public Transform[]  shotPoints;
+    public Transform    pointToMoveTo;
+    public GameObject   itemToShoot;
+    public bool         shouldChasePlayer;
+    public bool         shouldMove;
+    public bool         moveToPoints;
+    public bool         shouldShoot;
+    public float        actionLength;
+    public float        moveSpeed;
+    public float        timeBetweenShots;
 }
 
 [System.Serializable]
@@ -171,6 +166,5 @@ public class BossSequence
 {
     [Header("This is a sequence")]
     public BossAction[] actions;
-
     public int endSequenceHealth;
 }
