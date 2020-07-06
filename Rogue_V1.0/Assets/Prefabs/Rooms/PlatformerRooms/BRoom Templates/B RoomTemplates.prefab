@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7497648556675160099}
-  - component: {fileID: 1546336402756209221}
+  - component: {fileID: 9187551964143100206}
   m_Layer: 15
   m_Name: B RoomTemplates
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1546336402756209221
+--- !u!114 &9187551964143100206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,11 +40,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7274653189073784607}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d2def7401135df47aaa919fc52c3c50, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a01fd677b73a664bb3e70ea0957d538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
+  rooms:
   - {fileID: 6026408598820544807, guid: 6df14aedd74e9804090278cecc819db3, type: 3}
   - {fileID: 5568591288697709941, guid: 0c0a811170b7738468e8ff5051b1689a, type: 3}
-  tileMap: {fileID: 4233606802244218820, guid: ea63d3408c04ffc44aa34e0d71a52bc8, type: 3}
-  ruleTile: {fileID: 11400000, guid: ec00be4fd50555f41aa01a1e610be816, type: 2}

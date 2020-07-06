@@ -58,8 +58,6 @@ public class LevelGenerator : MonoBehaviour
     [Tooltip("Maximum amount of rooms needed before reaching a shop")]
     public      int                 maxDistanceToGun;
 
-    public Tilemap tileMap;
-    public RuleTile ruleTile;
 
     // Start is called before the first frame update
     void Start()

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3472920114788368169}
-  - component: {fileID: 705399125815874888}
+  - component: {fileID: 3259656370967648617}
   m_Layer: 15
   m_Name: LRB RoomTemplates
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &705399125815874888
+--- !u!114 &3259656370967648617
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,11 +40,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8132038933757003001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d2def7401135df47aaa919fc52c3c50, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a01fd677b73a664bb3e70ea0957d538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
+  rooms:
   - {fileID: 4425724385052211572, guid: 646de3e5663e2474c902e692f8ac1a13, type: 3}
   - {fileID: 8979435629064429561, guid: bb6dda2a842244946a00ac6e6b6c62cd, type: 3}
-  tileMap: {fileID: 4233606802244218820, guid: ea63d3408c04ffc44aa34e0d71a52bc8, type: 3}
-  ruleTile: {fileID: 11400000, guid: ec00be4fd50555f41aa01a1e610be816, type: 2}

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6093847245373085834}
-  - component: {fileID: 7336635941817533223}
+  - component: {fileID: 1236898054663684075}
   m_Layer: 15
   m_Name: BR RoomTemplates
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7336635941817533223
+--- !u!114 &1236898054663684075
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,11 +40,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7912806025280968439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d2def7401135df47aaa919fc52c3c50, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a01fd677b73a664bb3e70ea0957d538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
+  rooms:
   - {fileID: 7015739828096489716, guid: 6757e464f975aa744969e678288674f1, type: 3}
   - {fileID: 4583388541021231318, guid: 546adbfef753e054cb6290735dba680d, type: 3}
-  tileMap: {fileID: 4233606802244218820, guid: ea63d3408c04ffc44aa34e0d71a52bc8, type: 3}
-  ruleTile: {fileID: 11400000, guid: ec00be4fd50555f41aa01a1e610be816, type: 2}
