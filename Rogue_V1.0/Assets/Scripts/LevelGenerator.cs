@@ -119,8 +119,7 @@ public class LevelGenerator : MonoBehaviour
                 layoutRoomObjects.RemoveAt(gunRoomSelector);
             }
             else
-            {
-                if( gunRoom && gunRoomSelector < layoutRoomObjects.Count)//TODO: Debugging. Remove.
+            {                
                     gunRoom = layoutRoomObjects[gunRoomSelector];
                     gunRoom.GetComponent<SpriteRenderer>().color = gunColor;
                     layoutRoomObjects.RemoveAt(gunRoomSelector);
