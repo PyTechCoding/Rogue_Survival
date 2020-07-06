@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Tilemaps;
 using UnityEngine.UIElements;
 
 public class PlatformLevelGeneration : MonoBehaviour
@@ -12,6 +13,7 @@ public class PlatformLevelGeneration : MonoBehaviour
     [Tooltip("index 0 --> LR, index 1 --> LRB, index 2 --> LRT, index 3 -->LRBT")]
     public GameObject[] rooms;
     public LayerMask room;
+ 
     private int direction;
     public int downCounter;
     public float moveAmount;

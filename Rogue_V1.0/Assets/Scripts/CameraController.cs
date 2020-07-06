@@ -26,11 +26,15 @@ public class CameraController : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().name != "TitleMenu")
         {
+
             player = PlayerController.playerInstance;
-            //On start focus the camera on player instance if play is not null
-            if(player.transform != null)
+            if(player != null)
             {
-                target = player.transform;
+                //On start focus the camera on player instance if play is not null
+                if(player.transform != null)
+                {
+                    target = player.transform;
+                }
             }
         }
         

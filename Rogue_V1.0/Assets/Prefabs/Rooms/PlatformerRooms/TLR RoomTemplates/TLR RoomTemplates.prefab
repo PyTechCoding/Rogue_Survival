@@ -46,3 +46,5 @@ MonoBehaviour:
   objects:
   - {fileID: 8997582809336090003, guid: 24b4952594e31424bb0a722d340897d2, type: 3}
   - {fileID: 4094603032612182249, guid: 4945bef54c0754041a864a96b8aa5ce5, type: 3}
+  tileMap: {fileID: 4233606802244218820, guid: ea63d3408c04ffc44aa34e0d71a52bc8, type: 3}
+  ruleTile: {fileID: 11400000, guid: ec00be4fd50555f41aa01a1e610be816, type: 2}

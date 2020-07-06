@@ -6492,7 +6492,7 @@ GameObject:
   - component: {fileID: 2327998757470217658}
   - component: {fileID: 7774275797214153335}
   m_Layer: 15
-  m_Name: Platform_RoomB_1 1
+  m_Name: Platform_RoomB_2
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0

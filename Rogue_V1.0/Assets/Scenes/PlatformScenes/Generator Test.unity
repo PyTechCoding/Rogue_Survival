@@ -350,6 +350,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1352683699585598084, guid: aaf69f3a729479a448884ea1d5f09750,
+        type: 3}
+      propertyPath: tileMap
+      value: 
+      objectReference: {fileID: 4233606802244218820, guid: ea63d3408c04ffc44aa34e0d71a52bc8,
+        type: 3}
+    - target: {fileID: 1352683699585598084, guid: aaf69f3a729479a448884ea1d5f09750,
+        type: 3}
+      propertyPath: ruleTile
+      value: 
+      objectReference: {fileID: 11400000, guid: ec00be4fd50555f41aa01a1e610be816,
+        type: 2}
     - target: {fileID: 1352683699585598085, guid: aaf69f3a729479a448884ea1d5f09750,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -409,6 +421,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform-LevelGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352683699585598107, guid: aaf69f3a729479a448884ea1d5f09750,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaf69f3a729479a448884ea1d5f09750, type: 3}
