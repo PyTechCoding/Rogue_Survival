@@ -111,18 +111,22 @@ public class LevelGenerator : MonoBehaviour
         if (includeGunRoom)
         {
             int gunRoomSelector = Random.Range(minDistanceToGun, maxDistanceToGun + 1);
-            if(gunRoomSelector < 0)
+            if(gunRoomSelector <= 0)
             {
+                gunRoomSelector = 0;
                 gunRoomSelector += 1;
                 gunRoom = layoutRoomObjects[gunRoomSelector];
                 gunRoom.GetComponent<SpriteRenderer>().color = gunColor;
                 layoutRoomObjects.RemoveAt(gunRoomSelector);
             }
             else
-            {                
+            {
+                if (gunRoomSelector < layoutRoomObjects.Count)
+                {
                     gunRoom = layoutRoomObjects[gunRoomSelector];
                     gunRoom.GetComponent<SpriteRenderer>().color = gunColor;
                     layoutRoomObjects.RemoveAt(gunRoomSelector);
+                }
             }         
         }
 

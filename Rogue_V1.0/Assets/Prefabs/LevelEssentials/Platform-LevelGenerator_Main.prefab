@@ -56,9 +56,9 @@ MonoBehaviour:
   rooms:
     singleUp: {fileID: 6794449105487850336, guid: 35e90dbaebdcf3445b046037282d4d24,
       type: 3}
-    singleDown: {fileID: 3223855760820919888, guid: db9f6b6bfd3ea004ebaee76ed07b7acb,
+    singleDown: {fileID: 7274653189073784607, guid: fa9a6c9fec2253e45a3275b55f879c96,
       type: 3}
-    singleRight: {fileID: 6340334343417520939, guid: b8efab351afdc7b499d709b1356c0be9,
+    singleRight: {fileID: 6590053428461802169, guid: ecbc42f3082f9984fab77edd7bf56746,
       type: 3}
     singleLeft: {fileID: 4136871020205616292, guid: a7ab4e36b1f27b04c873bad4bac4d0ac,
       type: 3}
@@ -66,19 +66,19 @@ MonoBehaviour:
       type: 3}
     doubleLeftRight: {fileID: 2752754466383759810, guid: 0a71e73c341937f49b0764f2a033e9eb,
       type: 3}
-    doubleUpRight: {fileID: 9049933925136537263, guid: 43ba2d88a1800f740a9b15e1edeafe7d,
+    doubleUpRight: {fileID: 7507744965340388849, guid: 90e07dd1ee2c1c8409fd8afb9a1c97e5,
       type: 3}
-    doubleRightDown: {fileID: 4856702225177858227, guid: aefad50bc7e70164d9f55ee252b1d137,
+    doubleRightDown: {fileID: 7912806025280968439, guid: 46dcd993d52bf094b85a8436690d1c57,
       type: 3}
     doubleDownLeft: {fileID: 3575700363478898627, guid: c70c26b314fce434a976e95de79bcf32,
       type: 3}
-    doubleLeftUp: {fileID: 5714645241100355614, guid: ac74af920bdaa0344866cbd9cd0af462,
+    doubleLeftUp: {fileID: 1702676106508551220, guid: d79f81d8b3811a44fbb4a2884d54e532,
       type: 3}
-    tripleUpRightDown: {fileID: 7010657767007491209, guid: bb0d2226412f00d4e979a04ffdf72fdb,
+    tripleUpRightDown: {fileID: 2389062603380881993, guid: 6f6c4a64b5e2b04408aaa385cf72569c,
       type: 3}
-    tripleRightDownLeft: {fileID: 1415361883687907893, guid: 020d672b53c02f644a847939a6a5f84b,
+    tripleRightDownLeft: {fileID: 8132038933757003001, guid: 3b7139ccec4791e40989c20761d2c25f,
       type: 3}
-    tripleDownLeftUp: {fileID: 8150608320676560580, guid: a8c85b50d1b17234dbca87e063698b54,
+    tripleDownLeftUp: {fileID: 3935843577850525405, guid: c31d60df0fb8ad14e9a70cf7ee04c3f6,
       type: 3}
     tripleLeftUpRight: {fileID: 8150608320676560580, guid: a8c85b50d1b17234dbca87e063698b54,
       type: 3}
@@ -96,7 +96,7 @@ MonoBehaviour:
   distanceToEnd: 8
   minDistanceToShop: 4
   maxDistanceToShop: 5
-  minDistanceToGun: 2
+  minDistanceToGun: 0
   maxDistanceToGun: 6
 --- !u!1 &1352683699644658750
 GameObject:
