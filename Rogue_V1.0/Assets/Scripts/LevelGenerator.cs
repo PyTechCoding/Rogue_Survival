@@ -58,7 +58,7 @@ public class LevelGenerator : MonoBehaviour
     [Tooltip("Maximum amount of rooms needed before reaching a shop")]
     public      int                 maxDistanceToGun;
 
-
+    public Tilemap tilemap;
     // Start is called before the first frame update
     void Start()
     {
@@ -202,7 +202,8 @@ public class LevelGenerator : MonoBehaviour
                     Instantiate(potentialCenters[centerSelect], outline.transform.position, transform.rotation).theRoom = outline.GetComponent<Room>();
 
             }
-        }
+        }        
+        
     }
 
     private void CheckForSpecialRoom()
@@ -256,6 +257,8 @@ public class LevelGenerator : MonoBehaviour
         }
             
 #endif
+
+        
     }
 
 
@@ -319,7 +322,7 @@ public class LevelGenerator : MonoBehaviour
             case 1:
                 if(roomAbove)
                 {
-                    generatedOutlines.Add(Instantiate(rooms.singleUp, roomPosition, transform.rotation));
+                    generatedOutlines.Add(Instantiate(rooms.singleUp, roomPosition, transform.rotation));                    
                 }
 
                 if (roomBelow)

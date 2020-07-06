@@ -17,12 +17,14 @@ public class SpawnObjects : MonoBehaviour
         GameObject instance = Instantiate(objects[rand], transform.position, Quaternion.identity);
         instance.transform.parent = transform;
         */
+        Vector3Int currentCell = tileMap.WorldToCell(transform.position);
+        tileMap.SetTile(currentCell, rule);
+
+        tileMap.RefreshTile(currentCell);
     }
 
     private void LateUpdate()
     {
-        Vector3Int currentCell = tileMap.WorldToCell(transform.position);
-        tileMap.SetTile(currentCell, rule);
         
     }
 
